@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <StackPane prefHeight="40.0" prefWidth="600.0" />
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+         <children>
+            <ImageView fx:id="key1" fitHeight="44.0" fitWidth="52.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="image1/1.PNG" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="key2" fitHeight="44.0" fitWidth="52.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="image1/2.PNG" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="key3" fitHeight="44.0" fitWidth="52.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="image1/3.PNG" />
+               </image>
+            </ImageView>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+         <children>
+            <ImageView fx:id="key4" fitHeight="44.0" fitWidth="52.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="image1/4.PNG" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="key5" fitHeight="44.0" fitWidth="52.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="image1/5.PNG" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="key6" fitHeight="44.0" fitWidth="52.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="image1/6.PNG" />
+               </image>
+            </ImageView>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+         <children>
+            <ImageView fx:id="key7" fitHeight="44.0" fitWidth="52.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="image1/7.PNG" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="key8" fitHeight="44.0" fitWidth="52.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="image1/8.PNG" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="key9" fitHeight="44.0" fitWidth="52.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="image1/9.PNG" />
+               </image>
+            </ImageView>
+         </children>
+      </HBox>
+   </children>
+</VBox>
